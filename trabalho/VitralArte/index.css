@@ -1,0 +1,276 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+/* fim reset */
+/* fontes */
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans Bold";
+    src: url(Font/OpenSans-Bold.ttf);
+}
+
+
+
+@font-face {
+    font-family: "Poppins Bold";
+    src: url(Font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(Font/Poppins-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(Font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(Font/Roboto-Regular.ttf);
+}
+/* fim fontes */
+/*  */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+} 
+/* fim */
+
+/* contato */
+.contato {
+    background-color: #106eea;
+}
+
+.contato .container {
+    justify-content: flex-start;
+    height: 30px;
+}
+
+.contato .container a {
+    font: 500 20px "OpenSans Regular";
+    color: #fff;
+    margin-right: 40px;
+}
+/* fim contato */
+/* header */
+.logo .nome {
+    font: 700 40px "Poppins Bold";
+}
+
+.menu a {
+    font: 500 22px "OpenSans Regular";
+    color: #000000;
+    margin-left: 60px;
+}
+/* fim header */
+/* inicio */
+.inicio {
+    background-image: url(Img/Vitral.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inicio .container {
+    justify-content: flex-end;
+    height: 400px;
+}
+
+.titulo-inicio {
+    font: 700 40px "Poppins Bold"
+}
+
+.texto-inicio {
+    font: 500 40px "Poppins Regular"
+}
+/* fim inicio */
+/* titulo */
+.titulo {
+    font: 700 40px "Roboto Bold";
+    color: #000000;
+}
+
+span {
+    color: #106EEA
+}
+/* fim titulo */
+/* texto */
+.texto {
+    font: 500 20px 'OpensSans Regular';
+}
+/* fim texto */
+
+/* sobre nós */
+.conteudo {
+    text-align: center;
+}
+
+.SobreNos .imagem img {
+    width: 500px;
+}
+
+.SobreNos .conteudo .texto {
+    text-align: justify;
+}
+
+.SobreNos .conteudo {
+    margin-right: 100px;
+}
+
+.header .nome{
+    font: 700 40px 'Poppins Bold';
+}
+
+/* info */
+
+.infos .quadrados .quadrado img{
+    width: 100px;
+}
+
+.infos .quadrados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.quadrado{
+    background-color: #f1f6fe;
+    border: 1px solid #8ca9ce;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 20px;
+    width: 230px;
+}
+
+/* divisão */
+
+.divisao {
+    background-color: #1150A3;
+    height: 2px;
+}
+
+/* servicos */
+.servicos .container{
+    flex-direction: column;
+}
+
+.servico{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.servico .servico-titulo{
+    font: 700 24px 'Roboto Bold';
+}
+
+.servico .servico-nome{
+    border: 2px solid #8ca9ce;
+    width: 275px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+/* equipe */
+.Equipe .container{
+    flex-direction: column;
+}
+
+.Equipe .pessoas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Equipe .pessoas .pessoa {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 25px;
+}
+
+.Equipe .conteudo .texto{
+    text-align: justify;
+}
+
+/* Formulario */
+
+.formulario .container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.endereco{
+    width: 200px;
+    border: 3px solid #1150A3;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+input{
+    height: 60px;
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 5px 8px;
+}
+
+textarea{
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 5px 8px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button{
+    background-color: #106EEA;
+    color: white;
+    font: 700 20px 'Roboto Bold';
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin: 0 60px;
+}
+.informacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section,
+main .conteudo,
+.divisao{
+    margin-bottom: 80px;
+}
